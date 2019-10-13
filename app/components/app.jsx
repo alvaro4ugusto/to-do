@@ -7,7 +7,6 @@ export default function app (props) {
 
     var addItem = () => {setList (list.concat([Newitem]))}
 
-
     return <main>
         <header><h1>To-do {Newitem}</h1> </header>
         <section>
