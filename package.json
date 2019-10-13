@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "scripts": {
+    "serve": "parcel app/index.html --open",
+    "build": "parcel build app/index.html --public-url=."
+  }
+}
